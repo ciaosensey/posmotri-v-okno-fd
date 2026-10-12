@@ -176,6 +176,7 @@ ol {
   flex-grow: 1;
   gap: 26px;
   align-self: stretch;
+  min-inline-size: 0;
 }
 
 .title {
@@ -270,6 +271,7 @@ ol {
 }
 
 .more-button {
+  flex-shrink: 0;
   inline-size: 100%;
   block-size: 34px;
 }
